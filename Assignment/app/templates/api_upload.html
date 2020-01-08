@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Upload API</title>
+    </head>
+
+      <body>
+        <h1>Upload</h1>
+        {{msg if msg != None}}
+         <form action="{{url_for('api_upload')}}" method="post" enctype="multipart/form-data">
+             Username <input type="text" name="username" required><br>
+             Password <input type="password" name="password" required><br>
+             Photo to upload <input type="file" name="file" multiple><br>
+
+        <input type="submit" value="Upload">
+        <input type="reset">
+        </form>
+
+    </body>
+</html>
