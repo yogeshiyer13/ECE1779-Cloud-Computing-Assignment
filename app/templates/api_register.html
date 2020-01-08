@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Register API</title>
+    </head>
+
+      <body>
+        <h1>Register</h1>
+        {{msg if msg != None}}
+        <form action="{{ url_for('api_register') }}" method="post" autocomplete="off">
+             Username <input type="text" name="username"><br>
+             Password <input type="password" name="password"><br>
+
+        <input type="submit" value="Register">
+        <input type="reset">
+        </form>
+
+    </body>
+</html>
