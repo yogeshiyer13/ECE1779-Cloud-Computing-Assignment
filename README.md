@@ -27,7 +27,7 @@ For Mac OS:
 For Windows OS:
 
 - python3 -m venv venv
--./venv/bin/activate
+- ./venv/bin/activate
 
 setup the env for flask:
 
