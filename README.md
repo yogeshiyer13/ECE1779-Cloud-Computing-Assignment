@@ -21,23 +21,27 @@ Run the flask: virtual env to run the flask by using python3:
 
 - For Mac OS:
 
-python3 -m venv venv
-source ./venv/bin/activate
+ python3 -m venv venv
+ source ./venv/bin/activate
 
 - For Windows OS:
 
 python3 -m venv venv
+
 ./venv/bin/activate
+
 setup the env for flask:
 
 - For Mac OS:
 
 EXPORT FLASK_APP=main.py
+
 EXPORT FLASK_ENV=development flask run
 
 - For Windows user:
 
 set FLASK_APP=main.py
+
 set FLASK_ENV=development
 
 flask run
